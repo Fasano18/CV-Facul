@@ -194,13 +194,22 @@ p {
 
 .icon-container {
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; 
+  align-items: center; 
 }
 
-/* Estilizar os ícones */
+
 .icon {
   width: 40px; 
   height: 40px; 
   margin-right: 10px; 
+}
+
+footer {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+
 }
