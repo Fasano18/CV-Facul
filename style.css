@@ -1,0 +1,206 @@
+body {
+  background: linear-gradient(to right, #000000, #808080);
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.ft img {
+  width: 8%;
+  height: 8%;
+  border-radius: 999%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  transition: transform 0.3s ease;
+  border: 2px solid white; 
+}
+
+img:hover {
+  transform: scale(1.2); 
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 0 0px;
+  font-family: "Teko", sans-serif;
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+  margin: 0 0 0px;
+  font-family: "Teko", sans-serif;
+  color: #FFFFFF;
+}
+
+.perfil {
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 300px;
+  background-color: #D3D3D3;
+  border-radius: 40px;
+  width: 450px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: "Popins", sans-serif;
+}
+
+.perfil h1 {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0 0 0px;
+  font-family: "Teko", sans-serif;
+  text-align: left;
+  color:black;
+}
+
+.hard {
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #D3D3D3;
+  border-radius: 40px;
+  width: 450px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: "Popins", sans-serif;
+}
+  
+
+
+.hard h1 {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0 0 0px;
+  font-family: "Teko", sans-serif;
+  text-align: left;
+  margin-bottom: 20px;
+  height: 40px;
+  color:black;
+}
+
+.soft {
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #D3D3D3;
+  border-radius: 40px;
+  width: 450px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: "Popins", sans-serif;
+}
+
+.soft h1 {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0 0 0px;
+  font-family: "Teko", sans-serif;
+  text-align: left;
+  margin-bottom: 20px;
+  height: 40px;
+  color:black;
+}
+
+
+.exp {
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #D3D3D3;
+  border-radius: 40px;
+  width: 450px;
+  height: 140px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: "Popins", sans-serif;
+}
+  
+
+
+.exp h1 {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0 0 0px;
+  font-family: "Teko", sans-serif;
+  text-align: left;
+  margin-bottom: 20px;
+  height: 40px;
+  color:black;
+}
+
+
+.edu {
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #D3D3D3;
+  border-radius: 40px;
+  width: 450px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: "Popins", sans-serif;
+}
+
+
+.edu h1 {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0 0 0px;
+  font-family: "Teko", sans-serif;
+  text-align: left;
+  margin-bottom: 20px;
+  height: 40px;
+  color:black;
+}
+
+
+
+.hob {
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #D3D3D3;
+  border-radius: 40px;
+  width: 450px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: "Popins", sans-serif;
+  margin-bottom: 30px;
+}
+
+
+.hob h1 {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0 0 0px;
+  font-family: "Teko", sans-serif;
+  text-align: left;
+  margin-bottom: 20px;
+  height: 40px;
+  color:black;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+/* Estilizar os ícones */
+.icon {
+  width: 40px; 
+  height: 40px; 
+  margin-right: 10px; 
+}
